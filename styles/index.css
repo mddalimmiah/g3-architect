@@ -231,6 +231,19 @@ right: 100px;
 .sponsors-img-container img{
     width: 165px;
 }
+footer{
+   max-width: 1440px;
+   padding: 130px 240px;
+   
+}
+.text{
+   border-radius: 8px;
+   background: rgb(255, 244, 231);
+   text-align: center;
+   font-size: 1.1rem;
+   font-weight: 400px;
+   color: #424242;
+}
 
 /* 
   Responsive media query styles */
@@ -314,7 +327,9 @@ max-width:300px;
 position:static;
 
 }
-
+footer{
+   padding: 50px;
+}
 
 }
     
@@ -354,5 +369,10 @@ position:static;
      .sponsors-img-container img{
         width: 70%;
      }
+
+     footer{
+      padding: 100px;
+   }
+   
 
   }
